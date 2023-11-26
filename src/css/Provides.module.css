@@ -1,7 +1,7 @@
 .cardItems {
     margin: 10rem 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .num {
@@ -15,9 +15,10 @@
 }
 
 .card {
-    padding: 8px;
+    padding: 10px;
     border-radius: 15px;
     background: #141B24;
+    width: 300px;
 }
 
 .innerBorder {
@@ -51,5 +52,17 @@
         padding: 8px;
         border-radius: 15px;
         background: #141B24;
+    }
+}
+
+@media(max-width:370px){
+    .card{
+        width: 250px;
+    }
+    .num{
+        font-size: 5rem;
+    }
+    .topic{
+        font-size: 1rem;
     }
 }

@@ -5,7 +5,7 @@ function Provides() {
     return (
         <div>
             <div className={css.cardItems}>
-                    <div className={css.card} style={{ padding: '10px', backgroundColor: '#141B24', width: '300px' }}>
+                    <div className={css.card} >
                         <div className={css.innerBorder}>
                             <div style={{ padding: '10px 20px' }}>
                                 <div className={css.num}>07</div>
@@ -13,7 +13,7 @@ function Provides() {
                             </div>
                         </div>
                     </div>
-                    <div className={css.card} style={{ padding: '10px', backgroundColor: '#141B24', width: '300px' }}>
+                    <div className={css.card} >
                         <div className={css.innerBorder}>
                             <div style={{ padding: '10px 20px' }}>
                                 <div className={css.num}>05</div>
@@ -21,7 +21,7 @@ function Provides() {
                             </div>
                         </div>
                     </div>
-                    <div className={css.card} style={{ padding: '10px', backgroundColor: '#141B24', width: '300px' }}>
+                    <div className={css.card} >
                         <div className={css.innerBorder}>
                             <div style={{ padding: '10px 20px' }}>
                                 <div className={css.num}>10</div>

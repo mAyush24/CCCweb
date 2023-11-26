@@ -114,3 +114,9 @@
         height: 150px;
     }
 }
+
+@media(max-width:370px){
+    .outerBorder{
+        width: 250px !important;
+    }
+}

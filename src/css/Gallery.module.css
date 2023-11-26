@@ -1,0 +1,128 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.first h1 {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+
+.first>img{
+    width: 25rem;
+    border-radius: 30px;
+    box-shadow: -3px 4px 11px 5px #0a0a0a;
+    position: relative;
+}
+.second {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.img>img {
+    width: 15rem;
+    /* margin: 0 10px; */
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px #0a0a0a;
+    /* transform: rotate(-10deg); */
+
+}
+
+.card {
+    padding: 8px;
+    border-radius: 15px;
+    background: #141B24;
+    width: 40% ;
+    height: 250px;
+    padding: 12px;
+}
+
+.innerBorder {
+    padding: 16px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='14' ry='14' stroke='%23333' stroke-width='8' stroke-dasharray='15%2c 15' stroke-dashoffset='61' stroke-linecap='round'/%3e%3c/svg%3e");
+    border-radius: 14px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album {
+    font-size: 1rem;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 13px;
+    text-align: center;
+}
+.album:hover{
+    cursor:not-allowed;
+}
+
+
+.mobile{
+    display: none;
+}
+
+.space{
+    padding-bottom: 2rem;
+}
+
+@media(max-width:450px){
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 20rem;
+        margin: 1rem auto;
+        border-radius: 30px;
+        box-shadow: -3px 4px 11px 5px #0a0a0a;
+    }
+    .heading{
+        font-size: 2rem !important;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .second{
+        margin: 2rem 0;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .card{
+        width: 70%;
+        height: 110px;
+    }
+    .img>img{
+        width: 10rem;
+        /* filter: blur(7px); */
+    }
+}
+
+@media(max-width:370px){
+    .img>img{
+        width: 7rem;
+    }
+    .mobile{
+        width: 15rem;
+    }
+    .heading{
+        font-size: 1.2rem !important;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+}

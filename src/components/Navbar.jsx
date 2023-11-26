@@ -11,9 +11,9 @@ function Navbar() {
             <nav className={css.navbar}>
                 <div className={css.logo}>
                     <img className={css.logoImg} src={Logo} alt="logo" />
-                    <div className={css.logoName}>
-                        <p>CRAETOR'S CAMPUS CONNECT</p>
-                        {/* <p>CONNECT</p> */}
+                    <div className={`${css.logoName} ${css.laptop}`}>
+                        <p>CRAETOR'S CAMPUS</p>
+                        <p>CONNECT</p>
                     </div>
                 </div>
 

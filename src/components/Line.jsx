@@ -9,9 +9,9 @@ function Line() {
         <div>
             <div className={css.line}>
                 <span></span>
-                <img style={{ width: '6rem' }} src={Rectangle} alt="" />
-                <img style={{ width: '3rem' }} src={Circle} alt="" />
-                <img style={{ width: '3rem' }} src={Triangle} alt="" />
+                <img className={css.rect} style={{ width: '6rem' }} src={Rectangle} alt="" />
+                <img className={css.circ} style={{ width: '3rem' }} src={Circle} alt="" />
+                <img className={css.tri} style={{ width: '3rem' }} src={Triangle} alt="" />
             </div>
         </div>
     )

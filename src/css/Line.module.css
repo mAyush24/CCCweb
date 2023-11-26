@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 2rem;
     margin: 2rem 0;
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 
 .line>span{
@@ -14,4 +14,23 @@
     height: 10px;
     background: linear-gradient(to right, transparent, white);
     border-radius: 20px;
+}
+
+@media(max-width:450px){
+    .line>span{
+        color: #0D1218;
+        height: 5px;
+    }
+    .line{
+        gap: .4rem;
+    }
+    .rect{
+        width: 2rem !important;
+    }
+    .circ{
+        width: 1rem !important;
+    }
+    .tri{
+        width: 1rem !important;
+    }
 }
